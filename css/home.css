@@ -1,0 +1,94 @@
+#home {
+  background: url("../img/header-bg.png") no-repeat top center;
+  background-size: cover;
+  position: relative;
+}
+.home-content {
+  text-align: center;
+}
+.home-content h1 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  visibility: visible;
+  animation-duration: 4s;
+  animation-name: fadeIn;
+}
+.home-content p {
+  color: #fff;
+  max-width: 600px;
+  margin: auto;
+}
+.home-content h4 {
+  color: #fff;
+  font-weight: 300 !important;
+  font-size: 21px !important;
+  letter-spacing: 1px;
+}
+.home-content .input-wrap {
+  margin: 40px 0 50px 0;
+}
+.input-wrap .form-box {
+  background-color: #fff;
+  max-width: 556px;
+  padding: 5px 0px 5px 5px;
+  margin: 0 auto;
+}
+.input-wrap .form-box input {
+  border: 0;
+  display: inline-block;
+  padding: 0 20px;
+  width: 100%;
+  color: #495057;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 1.5;
+  height: calc(2.25rem + 2px);
+}
+.input-wrap .form-box .search-btn {
+  border: 0;
+  padding: 10px 31px;
+  margin-right: 4px;
+  font-size: 14px;
+  color: #fff;
+  background: linear-gradient(90deg, #39cfca 0%, #3279bb 100%);
+}
+.home-content h4 {
+  margin: auto;
+}
+.courses {
+  max-width: 430px;
+  margin: 0 auto;
+}
+.courses a {
+  visibility: visible;
+  animation-duration: 1s;
+  animation-delay: 0.3s;
+  animation-name: fadeInDown;
+}
+.pt-20 {
+  padding-top: 20px;
+}
+.primary-btn.transparent {
+  background: transparent;
+  border: 1px solid #fff;
+  font-size: 12px;
+  margin: 0 10px 10px 0;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 18px;
+}
+.courses .primary-btn.primary-btn.transparent:hover {
+  text-decoration: none;
+  color: #000 !important;
+  background-color: #fff;
+}
+.rocket-img {
+  position: absolute;
+  bottom: -22px;
+}
+.rocket-img.goto-top {
+  bottom: 100%;
+  transition: all 2.5s ease-in;
+}

@@ -1,0 +1,51 @@
+.testi-slider .testi-item {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.testi-slider h4 {
+  font-size: 21px;
+  font-weight: 700;
+  margin: 40px 0 10px 0;
+}
+.testi-slider .star-list {
+  margin-bottom: 35px;
+}
+.testi-slider .star-list a {
+  color: #ffc000;
+}
+.testi-slider .item .testi-item img {
+  width: auto;
+  margin: auto;
+}
+.item p {
+  max-width: 605px;
+  margin: auto;
+}
+.testi-img {
+  margin-top: 50px;
+}
+.person-pic {
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+}
+.owl-thumb-item {
+  position: relative;
+  margin-right: 20px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+}
+.owl-thumb-item .overlay-grad {
+  background: linear-gradient(90deg, #39cfca 0%, #3279bb 100%);
+  opacity: 0;
+}
+.owl-thumb-item.active .overlay-grad {
+  opacity: 0.8;
+}

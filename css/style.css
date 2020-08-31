@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /*css3*/
+  outline: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #777777;
+  font-size: 16px;
+  font-weight: 400;
+}
+a {
+  text-decoration: none !important;
+  color: none !important;
+}
+
+li {
+  list-style: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  color: #222222;
+  /* line-height: 1.2em !important; */
+  margin-bottom: 0;
+  margin-top: 0;
+  font-weight: 600;
+  font-size: 0;
+}
+button {
+  border: 0;
+  border-radius: 0;
+}
+input {
+  margin: 0;
+  border: 0 !important;
+  border-radius: 0 !important;
+}
+a:hover{
+  text-decoration: none;
+}
+.d-flex {
+  display: flex;
+}
+.primary-btn {
+  padding: 0 36px;
+  border-radius: 0;
+  border: 0;
+  line-height: 42px;
+  color: #fff !important;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 30px;
+  cursor: pointer;
+  font-weight: 500;
+  text-transform: capitalize;
+  background: linear-gradient(90deg, #39cfca 0%, #3279bb 100%);
+  transition: all 0.5s ease-in;
+ 
+}
+
+.ptd {
+  padding: 150px 0;
+}
+.content-right h1 {
+  font-size: 45px;
+  color: #000;
+  margin-bottom: 30px;
+  line-height: 45px !important;
+  font-weight: 600 !important;
+}
+/* @media (max-width:991px){
+  .ptd{
+    padding: 80px 0;
+  }
+} */
+
+@media (max-width: 991px) {
+  /*Start Home Section*/
+  .home-content h1 {
+    font-size: 35px;
+  }
+  /*Start Home Section*/
+
+  .content-right h1 {
+    font-size: 35px;
+    margin-bottom: 25px;
+  }
+  .about-left {
+    margin-bottom: 50px;
+  }
+  /*Start Course Section*/
+  .course-right {
+    margin-top: 60px;
+  }
+  /*End Course Section*/
+  /*Start Feature Section*/
+  .section-title h1 {
+    font-size: 30px;
+  }
+  /*End Feature Section*/
+}
+@media (max-width: 800px) {
+  #nav-menu-container {
+    display: none;
+  }
+  #mobile-nav-toggle {
+    display: inline;
+  }
+}
+@media (max-width: 767px) {
+  .fullscreen {
+    height: 900px !important;
+  }
+}
+@media (max-width: 600px) {
+  #logo {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 576px) {
+  .content-right h1 {
+    font-size: 30px;
+  }
+  .home-content h1 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 480px) {
+  .input-wrap .form-box input {
+    font-size: 13px;
+  }
+  .input-wrap .form-box .btn-search {
+    padding: 8px 16px;
+  }
+}

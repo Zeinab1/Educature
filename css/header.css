@@ -1,0 +1,95 @@
+/* Header */
+/* Start Design for mobile */
+#mobile-nav-toggle {
+  position: fixed;
+  right: 15px;
+  z-index: 999; /*first layer*/
+  top: 20px;
+  border: 0;
+  background: none;
+  font-size: 24px;
+  display: none;
+  transition: all 0.4s;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+}
+#mobile-nav {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  padding-top: 18px;
+  z-index: 998; /*second layer*/
+  background: rgba(0, 0, 0, 0.8);
+  left: -260px;
+  width: 260px;
+  height: 100vh;
+  overflow-y: auto;
+  transition: all 0.4s;
+}
+#mobile-nav ul li {
+  position: relative;
+}
+#mobile-nav li a {
+  color: #fff;
+  padding: 10px 22px 10px 15px;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: block;
+  text-decoration: none;
+}
+body.mobile-nav-active #mobile-nav {
+  left: 0;
+}
+#mobile-nav i {
+  position: absolute;
+  padding: 15px;
+  right: 0;
+  color: #fff;
+}
+.dropdown-items {
+  display: none;
+}
+.has-dropdown .dropdown-items li {
+  margin-left: 30px;
+}
+#mobile-nav ul .menu-item-active {
+  color: #39cfca;
+}
+
+/* End Design for mobile */
+
+/* start Design for mobile */
+header {
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 997;
+}
+.background-nav {
+  background: rgba(0, 0, 0, 0.9);
+  transition: all 0.5s;
+}
+.navbar-nav > li {
+  margin-left: 10px;
+}
+.navbar-nav > li > a {
+  padding: 0 8px 0 8px;
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+#mobile-body-overly {
+  width: 100%;
+  height: 100%;
+  z-index: 997; /*third layer*/
+  top: 0;
+  left: 0;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  display: none;
+}

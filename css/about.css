@@ -1,0 +1,26 @@
+.ptd {
+  padding: 150px 0;
+}
+.about-img {
+  max-width: 100%;
+}
+.about-right h1 {
+  font-size: 45px;
+  color: #000;
+  margin-bottom: 30px;
+  line-height: 45px !important;
+  font-weight: 600 !important;
+}
+.content-right p {
+  margin-bottom: 16px;
+}
+.about .wow {
+  visibility: visible;
+  animation-duration: 1s;
+  animation-name: fadeIn;
+}
+.primary-btn:hover {
+  background-size: 200% auto;
+  background-position-x: right;
+  background-position-y: center;
+}

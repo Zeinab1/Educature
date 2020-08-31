@@ -1,0 +1,27 @@
+#footer {
+  background: #283367;
+}
+.footer-widget h4 {
+  font-size: 21px;
+  color: #fff;
+  margin-bottom: 35px;
+}
+.footer-widget ul li {
+  margin-bottom: 15px;
+}
+.footer-widget .form-wrap {
+  margin-top: 25px;
+}
+.footer-widget .form-wrap input {
+  height: 40px;
+  width: 80%;
+  font-size: 14px;
+  font-weight: 300;
+  padding: 10px;
+}
+.footer-widget .form-wrap button {
+  padding: 8px 12px;
+  color: #fff;
+  height: 40px;
+  background: linear-gradient(90deg, #39cfca 0%, #3279bb 100%);
+}

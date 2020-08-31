@@ -1,0 +1,46 @@
+.course {
+  background: #f1f9ff;
+}
+.primary-btn.white {
+  background: #fff;
+  color: #000 !important;
+}
+.primary-btn.white:hover {
+  text-decoration: none;
+  color: #fff !important;
+  transition: color 0.5s;
+  background: linear-gradient(90deg, #39cfca 0%, #3279bb 100%);
+}
+.course-right {
+  background: #fff;
+  padding: 40px;
+}
+
+.course-list li {
+  background: #f7fafc;
+  margin-bottom: 15px;
+  transition: all 0.3s ease 0s;
+}
+.course-list li:hover {
+  background: linear-gradient(90deg, #39cfca 0%, #3279bb 100%);
+  color: #fff;
+  transition: all 0.4s;
+}
+.course-list a {
+  color: #777777;
+  display: inline-block;
+  padding: 17px 30px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.4s;
+}
+.course-list i {
+  margin-right: 20px;
+}
+/*wow*/
+.course-list a {
+  /* visibility: visible;
+  animation-duration: 1s;
+  animation-delay: 0.1s;
+  animation-name: fadeInLeft; */
+}

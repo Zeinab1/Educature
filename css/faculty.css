@@ -1,0 +1,25 @@
+#faculty {
+  background: #f1f9ff;
+}
+.content-card {
+  background: #fff;
+  padding: 60px 30px 40px;
+}
+.content-card h5 {
+  font-size: 21px;
+}
+.content-card > p {
+  font-size: 14px;
+}
+.content-card a {
+  margin: 0 10px;
+  font-size: 14px;
+  color: #cccccc;
+}
+.content-card a:hover {
+  color: #000;
+}
+.faculty-pic {
+  position: relative;
+  bottom: -30px;
+}
